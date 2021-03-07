@@ -77,7 +77,7 @@
                         <color key="separatorColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="detailButton" indentationWidth="10" reuseIdentifier="legCell" rowHeight="170" id="XP0-rG-hrX">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="detailButton" indentationWidth="10" reuseIdentifier="legCell" editingAccessoryType="detailDisclosureButton" rowHeight="170" id="XP0-rG-hrX">
                                 <rect key="frame" x="0.0" y="28" width="414" height="170"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XP0-rG-hrX" id="1PM-n5-ekq">
@@ -532,11 +532,11 @@
             </objects>
             <point key="canvasLocation" x="1028.985507246377" y="16.741071428571427"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--sports-->
         <scene sceneID="t35-g6-ZYh">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EbU-S8-zmK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="yuV-Ao-oEb">
+                    <tabBarItem key="tabBarItem" title="sports" image="icons8-stadium-30" id="yuV-Ao-oEb">
                         <color key="badgeColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -561,6 +561,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="icons8-stadium-30" width="30" height="30"/>
         <image name="lover" width="512" height="512"/>
         <image name="previous (1)-1" width="128" height="128"/>
     </resources>
