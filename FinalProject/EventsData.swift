@@ -4,7 +4,7 @@
 //
 //  Created by MacOSSierra on 2/27/21.
 //  Copyright © 2021 MacOSSierra. All rights reserved.
-//
+//bashayer r mansour
 
 import Foundation
 class EventsData{
@@ -17,8 +17,6 @@ class EventsData{
     var awayteam : String = ""
     var homeScore : Int = 0
     var awayScore : Int = 0
-    var teamimage : String = ""
-    
-    
+
     
 }
